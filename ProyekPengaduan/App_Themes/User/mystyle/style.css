@@ -1,0 +1,277 @@
+html {
+	position: relative;
+}
+
+body {
+	margin-bottom: 100px;
+	margin-top: 55px;
+	font-family: viga;
+}
+
+.navbar-brand {
+	font-family: viga;
+}
+
+.nav-item {
+	font-family: viga;
+	font-color: white;
+}
+
+.jumbotron {
+	background-image: url('../image/marketing-png-marketing-png-clipart-800.png');
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 500px;
+}
+
+.jumbotron h1 {
+	text-shadow: 1px 1px 1px rgba(f, f, f, 0.5);
+	padding-top: 80px;
+	font-family: viga;
+	font-size: 50px;
+	text-shadow: #eee;
+}
+
+.jumbotron p {
+	text-shadow: 1px 1px 1px rgba(f, f, f, 0.5);
+	font-family: viga;
+	font-size: 25px;
+}
+
+.info-panel {
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	margin-top: -60px;
+	background-color: #17a2b8;
+	padding-top: 18px;
+}
+
+.info-panel h4 {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: viga;
+	color: white;
+}
+
+.info-panel1 {
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	margin-top: -35px;
+	background-color: #17a2b8;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+.info-panel1 h4 {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: viga;
+	color: white;
+}
+
+.font-color {
+	color: #000000;
+}
+
+hr {
+	width: 250px;
+	border-top: 3px solid #999;
+}
+
+.atas {
+	padding-top: 70px;
+}
+
+.atas2 {
+	width: 150px;
+	height: 150px;
+
+}
+
+section {
+	min-height: 500px;
+}
+
+.section1 {
+	font-family: viga;
+	text-align: center;
+}
+
+.table {
+	align: center;
+}
+
+.section1 h1 {
+	font-family: viga;
+	margin-top: 100px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.section2 {
+	font-family: viga;
+	text-align: center;
+	min-height: 350px;
+}
+
+.section2 h1 {
+	font-family: viga;
+	margin-top: 250px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.menu {
+	background-color: #eee;
+}
+
+.cek {
+	min-height: 250px;
+}
+
+.about {
+	background-color: #eee;
+	min-height: 300px;
+}
+
+.table {
+	padding: 50px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	padding-top: 20px;
+}
+
+footer p {
+	color: #aaa;
+	font-size: 0.9em;
+	font-family: viga;
+}
+
+.myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+
+.container_cara {
+	position: relative;
+	width: 1200px;
+	height: 0;
+	margin: 75px auto;
+
+}
+
+.container_cara .box {
+	position: relative;
+	width: calc(400px - 30px);
+	height: calc(300px - 30px);
+	background: #000;
+	float: left;
+	margin: 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.container_cara .box .icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #f00;
+	transition: 0.5s;
+	z-index: 1;
+}
+
+.container_cara .box:hover .icon {
+	top: 10px;
+	left: calc(50% - 40px);
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.container_cara .box .icon .fa {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 80px;
+	transition: 0.5s;
+	color: #fff;
+}
+
+.container_cara .box:hover .icon .fa {
+	font-size: 40px;
+}
+
+.container_cara .box .content {
+	position: absolute;
+	top: 100%;
+	height: calc(100% - 100px);
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+
+.container_cara .box:hover .content {
+	top: 80px;
+	opacity: 1;
+
+}
+
+.container_cara .box .content h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 24px;
+}
+
+.container_cara .box .content p {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.container_cara .box:nth-child(1) .icon {
+	background: #319635;
+}
+
+.container_cara .box:nth-child(1) {
+	background: #4caf50;
+}
+
+.container_cara .box:nth-child(2) .icon {
+	background: #d03852;
+}
+
+.container_cara .box:nth-child(2) {
+	background: #f54967;
+}
+
+.container_cara .box:nth-child(3) .icon {
+	background: #23789e;
+}
+
+.container_cara .box:nth-child(3) {
+	background: #328fa5;
+}

@@ -1,0 +1,134 @@
+﻿<%@ Master Language="VB" CodeFile="Pengaduan.master.vb" Inherits="Pengaduan"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="au theme template">
+    <meta name="author" content="Hau Nguyen">
+    <meta name="keywords" content="au theme template">
+
+    <!-- Title Page-->
+    <title>Sosial</title>
+
+    <!-- Fontfaces CSS-->
+    <link href="../App_Themes/css/font-face.css" rel="stylesheet" media="all">
+    <link href="../App_Themes/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="../App_Themes/vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="../App_Themes/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+    <!-- Bootstrap CSS-->
+    <link href="../App_Themes/vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+
+    <!-- Vendor CSS-->
+    <link href="../App_Themes/vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="../App_Themes/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+    <link href="../App_Themes/vendor/wow/animate.css" rel="stylesheet" media="all">
+    <link href="../App_Themes/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="../App_Themes/vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="../App_Themes/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="../App_Themes/vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="../App_Themes/css/theme.css" rel="stylesheet" media="all">
+
+</head>
+
+<body class="animsition">
+    <div class="page-wrapper">
+        <!-- HEADER DESKTOP-->
+        <header class="header-desktop3 d-none d-lg-block">
+            <div class="section__content section__content--p35">
+                <div class="header3-wrap">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img src="../App_Themes/images/icon/logo-white.png" alt="CoolAdmin" />
+                        </a>
+                    </div>
+                    <!-- Untuk Navbar -->
+                    <div class="header__navbar">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="index.aspx">
+                                    <span class="bot-line"></span>Beranda</a>
+                            </li>
+                            
+                            <li>
+                                <a href="pengaduan_proses.aspx">
+                                    <span class="bot-line"></span>Proses</a>
+                            </li>
+                            <li>
+                                <a href="pengaduan_selesai.aspx">
+                                    <span class="bot-line"></span>Selesai</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Untuk User name yang aktif dan drop down log out -->
+                    <div class="header__tool">
+                        <div class="account-wrap">
+                            <div class="account-item account-item--style2 clearfix js-item-menu">
+                                <div class="image">
+                                    <img src="../App_Themes/images/icon/avatar-01.jpg" alt="John Doe" />
+                                </div>
+                                <div class="content">
+                                    <a class="js-acc-btn" href="#"><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></a>
+                                </div>
+                                <div class="account-dropdown js-dropdown">
+                                    <div class="info clearfix">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="../App_Themes/images/icon/avatar-01.jpg" alt="John Doe" />
+                                            </a>
+                                        </div>
+                                        <div class="content">
+                                            <h5 class="name">
+                                                <a href="#"><asp:Label ID="Label2" runat="server" Text="Label"></asp:Label></a>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div class="account-dropdown__body">
+                                        <div class="account-dropdown__item">
+                                            <a href="#">
+                                                <i class="zmdi zmdi-account"></i><asp:Label ID="Label3" runat="server" Text="Label"></asp:Label></a>
+                                        </div>
+                                    </div>
+                                    <div class="account-dropdown__footer">
+                                        <a href="#">
+                                            <i class="zmdi zmdi-power"></i>Logout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- END HEADER DESKTOP-->
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="copyright">
+                                <p>Copyright © 2018 Colorlib. Fedrian Indra Sasri dan Fitra Ramadhan. Pemrograman Web
+                                    2.</p>
+                            </div>
+                        </div>
+                    </div>
+    </form>
+</body>
+</html>
